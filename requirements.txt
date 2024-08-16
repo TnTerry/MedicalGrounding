@@ -1,0 +1,13 @@
+torch==2.4.0
+numpy
+tqdm
+hydra-core
+iopath
+pillow
+matplotlib
+SimpleITK
+opencv-python
+scikit-image
+pandas
+monai
+connected-components-3d
