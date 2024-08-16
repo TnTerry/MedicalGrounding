@@ -11,3 +11,4 @@ scikit-image
 pandas
 monai
 connected-components-3d
+transformers
