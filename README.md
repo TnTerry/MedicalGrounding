@@ -11,4 +11,3 @@ cd MedicalGrounding
 conda create -n medgrounding python=3.10 -y
 pip install -r requirements.txt
 ```
-3. 
