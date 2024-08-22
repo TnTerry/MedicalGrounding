@@ -9,5 +9,6 @@ cd MedicalGrounding
 2. Create an environment and install the packages
 ```
 conda create -n medgrounding python=3.10 -y
+source activate medgrounding
 pip install -r requirements.txt
 ```
