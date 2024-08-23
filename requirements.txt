@@ -12,3 +12,4 @@ scikit-image
 pandas
 monai
 connected-components-3d
+lmdeploy

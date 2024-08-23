@@ -44,7 +44,7 @@ if __name__ == "__main__":
         model_name_or_path="m42-health/Llama3-Med42-8B",
     )
 
-    prompt_message = "Briefly introduce kidney from a professional perspective. Focus on its shape, attribute, location in medical images and possible illnesses."
+    prompt_message = "Briefly introduce polyp from a professional perspective. Focus on its shape, attribute, location in medical images and possible illnesses."
     result_max_length = len(prompt_message.split()) + 200
 
     knowledge = model_lm_inject.generate_knowledge(
@@ -53,10 +53,3 @@ if __name__ == "__main__":
     )
 
     print(knowledge)
-
-    '''
-    The image is a non-contrasted computed tomography (CT) scan of the brain, showing the cerebral structures without any medical devices present. 
-    The region of interest, located centrally and in the middle of the image, exhibits an area of altered density, which is indicative of a brain hemorrhage. 
-    This area is distinct from the surrounding brain tissue, suggesting a possible hematoma or bleeding within the brain parenchyma. 
-    The location and characteristics of this abnormality may suggest a relationship with the surrounding brain tissue, potentially causing a mass effect or contributing to increased intracranial pressure.
-    '''
